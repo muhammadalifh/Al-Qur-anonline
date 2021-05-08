@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+   <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- font awesome untuk tool icon -->
+    <script src="https://kit.fontawesome.com/520b11f162.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  
+    <!-- font dari google -->
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header  -->
+    <header>
+        <div class="logo">
+            <h1 class="logo-text"><span>Al-Qur'an</span>Online</h1>
+        </div>
+        <i class="fas fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#"  style="background-color: #026464;">Register</a></li>
+            <li><a href="../Login/index.html">Login</a></li>
+            <li><a href="../About us/index.html">About Us</a></li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    User
+                    <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+                </a>
+                <ul>
+                    <li><a href="../Admin/post/index1.html">Dashboard <br>(Administrator)</a></li>             
+                    <li><a href="../Kontributor/post/index11.html">Dashboard <br>(Contributor)</a></li>
+                    <li><a href="../Customer/Donasi/index666.html">Dashboard <br>(Customer)</a></li>
+                </ul>
+        </ul>
+     </li>
+    </header>
+<!-- End Header -->
+
+    <div class="testbox">
+      <h1>Registration</h1>
+      <div class="camera">
+		<div class="image">
+			<a href="#.html">
+			<img src="camera.png" alt="camera;" style="width: 100px;">		
+			</a>
+		</div>
+		</div>
+      <form action="/">
+          <hr>
+        <div class="accounttype" style="margin-left: 60px;">
+          <input type="radio" value="None" id="radioTwo" name="account" checked />
+          <label for="radioTwo" class="radio">Contributor</label>
+        </div>
+      <hr>
+      <label id="icon" for="name"><i class="fas fa-user"></i></label>
+      <input type="text" name="name" id="name" placeholder="Nama" required/>
+
+      <label id="icon" for="name"><i class="fas fa-quran"></i></label>
+      <input type="text" name="name" id="name" placeholder="Username" required/>
+      <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+      <input type="text" name="name" id="name" placeholder="Email" required/>
+      <label id="icon" for="name"><i class="fas fa-key"></i></label>
+      <input type="password" name="name" id="name" placeholder="Password" required/>
+      <div class="gender">
+        <input type="radio" value="None" id="male" name="gender" checked/>
+        <label for="male" class="radio" chec>Pria</label>
+        <input type="radio" value="None" id="female" name="gender" />
+        <label for="female" class="radio">Wanita</label>
+       </div> 
+       
+    <label id="icon" for="name"><i class="far fa-grin-alt"></i></label>
+    <input type="text" name="name" id="name" placeholder="Umur / Usia" required/>
+    <label id="icon" for="name"><i class="far fa-calendar-alt"></i></label>
+    <input type="text" name="name" id="name" placeholder="tempat & dd/mm/yyyy" required/>
+    <label id="icon" for="name"><i class="fas fa-globe-europe"></i></label>
+    <input type="text" name="name" id="name" placeholder="Negara tempat tinggal" required/>
+    <label id="icon" for="name"><i class="fas fa-id-card"></i></label>
+    <input type="text" name="name" id="name" placeholder="Pekerjaan" required/>
+    <label id="icon" for="name"><i class="fas fa-map-marked-alt"></i></label>
+    <input type="text" name="name" id="name" placeholder="Alamat" required/>    
+    <br>
+    <br>
+    <p>Upload persyaratan (KTP) : <input type='file' name='foto' accept='image/*' /></p>
+
+
+    <br>
+    <br>
+       <a href="verifikasi/index1.html" class="button">Register</a>
+      </form>
+ 
+    </div>
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+    <!-- Custom Script -->
+    <script src="../js/scripts.js"></script>
+</body>
+</html>

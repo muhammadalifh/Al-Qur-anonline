@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القرأن أنلن | Manage Post</title>
+
+    <!-- ckeditor -->
+    <script type="text/javascript" src="../../../../ckeditor/ckeditor.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="../../../../css/style.css">
+    <link rel="stylesheet" href="../../../../css/admin.css">
+    <!-- font awesome untuk tool icon -->
+    <script src="https://kit.fontawesome.com/520b11f162.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+    <!-- font dari google -->
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- Header  -->
+<header>
+        <div class="logo">
+            <h1 class="logo-text"><span>Al-Qur'an</span>Online</h1>
+        </div>
+        <i class="fas fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    Administrator
+                    <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+                </a>
+                <ul>
+                    <li><a href="../../../post/index1.html">Dashboard</a></li>
+                    <li><a href="../../../../index.html" class="logout">LogOut</a></li>
+                </ul>
+        </ul>
+     </li>
+    
+    
+</header>
+<!-- End Header -->
+<div class="bis">
+<div class="sidebar">
+    <ul>
+        <li><a href="../../../post/index1.html" class='active'>Manage Post</a></li>
+        <li><a href="../../../profile/index2.html" class='active'>Manage Profile</a></li>
+        <li><a href="../../index3.html" class='active' style="background-color: #026464;">Manage Cutomer  & Contributor</a></li>
+        <li><a href="../../../ads/index4.html" class='active'>Manage Ads</a></li>
+        <li><a href="../../../password/index5.html" class='active'>Manage Password</a></li>
+    </ul>
+</div>
+<form>
+<div class="content">
+    <h2 style="margin-left:250px ;">Add Data Laporan</h2>
+
+<div>
+    <label for="type" style="text-align: center;">Type</label>
+        <select>
+            <option value="Customer">Customer</option>
+            <option value="Contributor">Contributor</option>
+        </select>
+</div> 
+<br>
+<div>
+    <label for="data-type" style="text-align: center;">Data type</label>
+        <select>
+            <option value="Donation">Laporan</option>
+        </select> 
+</div>   
+<br>   
+  
+<br>   
+<center style="margin-right: 200px;">
+<textarea class="ckeditor" id="ckeditor"></textarea>
+<br>
+<br>
+<div class="btn">
+    <button type="submit" style="color: #008080; font-family: 'Candal';">
+    <i class="fas fa-check-square"></i>
+      add post data</button>    
+</center>
+</div>
+</div>
+</form>
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Custom Script -->
+    <script src="../../js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القرأن أنلن | Manage Post</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/admin.css">
+  <!-- font awesome untuk tool icon -->
+  <script src="https://kit.fontawesome.com/520b11f162.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+  <!-- font dari google -->
+  <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- Header  -->
+<header>
+        <div class="logo">
+            <h1 class="logo-text"><span>Al-Qur'an</span>Online</h1>
+        </div>
+        <i class="fas fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    Customer
+                    <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+                </a>
+                <ul>
+                    <li><a href="index666.html">Dashboard</a></li>
+                    <li><a href="../../index.html" class="logout">LogOut</a></li>
+                </ul>
+        </ul>
+     </li>
+    
+    
+</header>
+<!-- End Header -->
+<div class="bis">
+<div class="sidebar">
+    <ul>
+        <li><a href="index666.html" class='active'  style="background-color: #026464;">Manage Donation</a></li>
+        <li><a href="../profile/index222.html" class='active'>Manage Profile</a></li>
+        <li><a href="../password/index555.html" class='active'>Manage Password</a></li>
+    </ul>
+</div>
+<!-- <div class="content"> -->
+        <center style="margin-left: 350px; margin-top: 25px;">
+            <form method="post">
+                <table  width="452" border="0" align="center"  cellpadding="0" cellspacing="1"  bgcolor="#000" style="padding: 2px">
+                    <tr>
+                        <td  height="40" align="center"  bgcolor="#000"><font  color="#FFFFFF">
+                        <b>DONASI</b></font></td>
+                    </tr>
+                    <tr>
+                        <td  bgcolor="#FFFFFF"><table width="452"  border="0" align="center" cellpadding="5"  cellspacing="0">
+                    <tr>
+                        <td  width="113">Nama Lengkap</td><td width="11">:</td>
+                        <td  width="237"><input name="nama" type="text" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td>:</td>
+                        <td><input  name="username" type="text" size="" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td><input  name="email" type="text" size="" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td>No. HP  /WhatsApp </td>
+                        <td>:</td>
+                        <td><input  name="hp" type="number" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td  width="113">Jumlah Donasi</td><td width="11">:</td>
+                        <td  width="237"><input name="donasi" type="number" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Pilihan Donasi</td>
+                        <td>:</td>
+                        <td>
+                            <input type="checkbox" name="rutin" value="Rutin">Rutin<br>
+                            <input type="checkbox" name="insidentil" value="insidentil">Insidentil<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Saluran Donasi</td>
+                        <td>:</td>
+                        <td>
+                        <select name="Saluran Donasi">
+                            <option>--  Saluran Donasi --</option>
+                            <option>Bank BCA (070-002-9762)</option>
+                            <option>Bank Mandiri (700-1334-756)</option>
+                            <option>Bank BNI (005-577-832)</option>
+                            <option>Bank BJB (001-926-7851)</option>
+                            <option>Bank Muamalat (162-2782-27961)</option>
+                            <option>Bank Bukopin (2762-7256-6241)</option>
+                            <option>Bank BRI (5324-0189-26579)</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Keterangan Tambahan</td>
+                        <td>:</td>
+                        <td><textarea name="saran" cols="30"  rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td> 
+                            <div class="btn">
+                            <a href="index666(save).html" style="text-decoration: none; color: #008080; font-family: 'Candal', sans-serif;">
+                                <button type="submit">
+                                <i class="far fa-save"></i>
+                              Save
+                              </a>
+                            </button>
+                            
+                          </div> 
+                        </td>
+                    </tr>
+                </table>
+                </form>
+        </center>
+    </div>
+</div>
+
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- CK editor -->
+    <script src="https://cdn.ckeditor.com/ckeditor5/19.0.0/classic/ckeditor.js"></script>
+    <!-- Custom Script -->
+    <script src="../../js/scripts.js"></script>
+</body>
+</html>

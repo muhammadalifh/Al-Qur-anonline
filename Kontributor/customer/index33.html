@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القرأن أنلن | Manage Post</title>
+
+    <!-- ckeditor -->
+    <script type="text/javascript" src="../../ckeditor/ckeditor.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/admin.css">
+    <!-- font awesome untuk tool icon -->
+    <script src="https://kit.fontawesome.com/520b11f162.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+    <!-- font dari google -->
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- Header  -->
+<header>
+        <div class="logo">
+            <h1 class="logo-text"><span>Al-Qur'an</span>Online</h1>
+        </div>
+        <i class="fas fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                     Contributor
+                    <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+                </a>
+                <ul>
+                    <li><a href="../../Kontributor/post/index11.html">Dashboard</a></li>
+                    <li><a href="../../index.html" class="logout">LogOut</a></li>
+                </ul>
+        </ul>
+     </li>
+    
+    
+</header>
+<!-- End Header -->
+<div class="bis">
+<div class="sidebar">
+    <ul>
+        <li><a href="../../Kontributor/post/index11.html" class='active'>Manage Post</a></li>
+        <li><a href="../../Kontributor/profile/index22.html" class='active'>Manage Profile</a></li>
+        <li><a href="../../Kontributor/customer/index33.html" class='active'  style="background-color: #026464;">Manage Contributor</a></li>
+        <li><a href="../../Kontributor/password/index55.html" class='active'>Manage Password</a></li>
+    </ul>
+</div>
+
+<center style="margin-left: 350px; margin-top: 25px;">
+            <form method="post">
+                <table  width="452" border="0" align="center"  cellpadding="0" cellspacing="1"  bgcolor="#000" style="padding: 2px">
+                    <tr>
+                        <td  height="40" align="center"  bgcolor="#000"><font  color="#FFFFFF">
+                        <b>Cetak struk Pembayaran</b></font></td>
+                    </tr>
+                    <tr>
+                        <td  bgcolor="#FFFFFF"><table width="452"  border="0" align="center" cellpadding="5"  cellspacing="0">
+                    <tr>
+                        <td  width="113">Nama Lengkap</td><td width="11">:</td>
+                        <td  width="237"><input name="nama" type="text" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td>:</td>
+                        <td><input  name="username" type="text" size="" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td><input  name="email" type="text" size="" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Uang Sejumlah</td>
+                        <td>:</td>
+                        <td><input  name="uang" type="number" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Terima dari</td>
+                        <td>:</td>
+                        <td><input  name="terima" type="text" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Untuk Pembayaran</td>
+                        <td>:</td>
+                        <td><input  name="bayar" type="text" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>:</td>
+                        <td><input  name="total" type="text" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td> 
+                            <div class="btn">
+                            <a href="index33.html" style="text-decoration: none; color: #008080; font-family: 'Candal', sans-serif;">
+                                <button type="submit">
+                                <i class="fas fa-file-pdf"></i>
+                              Cetak
+                              </a>
+                            </button>
+                            &nbsp;&nbsp;
+                            <a href="index33.html" style="text-decoration: none; color: rgb(207, 0, 0); font-family: 'Candal', sans-serif;">
+                                <button type="submit">
+                                <i class="far fa-times-circle"></i>
+                              Batal
+                              </a>
+                            </button>
+                            
+                          </div> 
+                        </td>
+                    </tr>
+                </table>
+                </form>
+        </center>
+
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Custom Script -->
+    <script src="../../js/scripts.js"></script>
+</body>
+</html>
